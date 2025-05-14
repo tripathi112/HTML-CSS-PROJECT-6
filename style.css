@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+        box-sizing: border-box;
+
+}
+
+body {
+    background-color: #fdfeff;
+    font-family: "Open Sans", sans-serif;
+    overflow: scroll;
+}
+
+/* ----------------------------Navbar------------------------------- */
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 2rem;
+   
+
+}
+
+.navbar img{
+    height: 40px;
+    width: 90px;
+}
+.navbar .list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 0.9rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #757875;
+    
+}
+
+.home{
+    color: #000000;
+}
+ .btn-outline{
+    border: 2px solid  #1c8cef;
+    border-radius: 10px;
+    color: #1c8cef;
+    width: 10rem;
+    height: 50px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.mobile-nav{
+    display: none;
+}
+
+/* ---------------------------------------------- hero section -------------------------------- */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    
+}
+
+
+.hero-left h1{
+    font-size: 3rem;
+}
+.hero-left p{
+    margin-top: 1.5rem;
+    color: #757875;
+    font-weight: 500;
+    font-size: 0.99rem;
+}
+.btn{
+    margin-top: 2rem;
+    background: linear-gradient(to right bottom, #11c0f8, #0566ea);
+    color: #fdfeff;
+    border: none;
+    border-radius: 10px;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hero-right img{
+    width: 500px;
+}
+
+/* --------------------------------------- testing section -------------------------------------- */
+
+.testing{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin-top: 5rem;
+     padding-left: 4rem;
+     padding-right: 4rem;
+}
+
+.testing-left img{
+    width: 550px;
+}
+
+
+.testing-right h2{
+    font-size: 3rem;
+}
+.testing-right p{
+    margin-top: 1.5rem;
+    color: #757875;
+    font-weight: 500;
+    font-size: 0.99rem;
+}
+
+/*----------------------------------------- technical-section ------------------------------------------- */
+
+
+
+.technical-section{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin-top: 5rem;
+     padding-left: 4rem;
+     padding-right: 4rem;
+}
+
+.technical-section img{
+    width: 500px;
+}
+
+
+.technical-section h2{
+    font-size: 3rem;
+}
+.technical-section p{
+    margin-top: 1.5rem;
+    color: #757875;
+    font-weight: 500;
+    font-size: 0.99rem;
+}
+
+
+/* -------------------------------------- services section ---------------------------------------- */
+
+.services-section{
+    margin-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.services-headline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.services-headline h2{
+    font-size: 3rem;
+}
+
+.services-headline p{
+    
+        color: #757875;
+        font-weight: 500;
+        font-size: 0.99rem;
+}
+
+.services-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+.services-card p{
+    margin-top: 1.5rem;
+    color: #757875;
+    font-weight: 500;
+    font-size: 0.99rem;
+}
+.services-card h4{
+   
+    margin-top: 1rem;
+    
+}
+
+
+
+/* ----------------------------------------------- pricing section ------------------------------ */
+
+.pricing-wrapper{
+    background: linear-gradient(to right bottom, #11c0f8, #0566ea);
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.price-heading{
+    display: flex;
+    justify-content: center;
+
+}
+.pricing-wrapper h2{
+    font-size: 3rem;
+    color: #fdfeff;
+    align-items: center;
+    padding-top: 3rem;
+    
+}
+
+.pricing{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.pricing-card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 350px;
+    height: 700px;
+    margin-top: 4rem;
+    
+}
+
+
+.card-heading{
+
+    height: 10rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+ 
+}
+.c-2{
+    background-color:#2c2c2c;
+    color: #fdfeff;
+}
+
+.card-heading h4{
+    font-size: 1.5rem;
+}
+
+.pricing-card-body ul{
+   
+    margin-top: 2rem;
+}
+
+.pricing-card-body span{
+    width: 20px;
+    height: 20px;
+    border: 3px solid #20daaa;
+    color: #20daaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.card-heading p{
+    margin-top: 1rem;
+    color: #757875;
+    font-weight: 500;
+    font-size: 0.99rem;
+}
+.pricing-card-body li{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    margin: 1.5rem 0rem 0rem 2rem;
+    color: #757875;
+    font-weight: 600;
+    font-size: 0.99rem;
+}
+
+.pricing-card-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+.pricing-card-footer h4{
+    font-size: 2rem;
+}
+.pricing-card-footer span, p{
+    color: #757875;
+}
+
+.pricing-card-footer .btn-outline{
+    margin-top: 2rem;
+    width: 12rem;
+}
+
+
+
+
+/* ------------------------------ customer section ----------------------- */
+
+.customer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+}
+
+.customer-section h1{
+    font-size: 3rem;
+    margin-top: 4rem;
+    
+}
+.customer-section p{
+    text-align: center;
+    color: #757875;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.customer-cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    padding: 1rem;
+    gap:  2rem;
+}
+.customer-card{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin-top: 2rem;
+    width: 550px;
+     padding: 2rem ;
+
+ 
+   
+    
+}
+
+.customer-card p{
+
+    margin-top: 0;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.customer-info{
+
+    padding-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.customer-info img{
+    height: 65px;
+    width: 65px;
+}
+
+
+/*-------------------------------------- footer----------------------------- */
+
+
+.footer{
+    background: linear-gradient(to right bottom, #11c0f8, #0566ea);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 4rem 3rem 3rem;
+   
+
+}
+
+
+.footer-left h1{
+    font-size: 2.5rem;
+    color: #fdfdfd;
+}
+
+.footer-left p{
+    margin-top: 2rem;
+    color: #fdfdfd;
+}
+
+.footer-right .btn-outline{
+    border: 2px solid #fdfdfd;
+    
+    color: #ffffff;
+    background-color: #1c8cef;;
+    font-size: 1rem;
+}
+
+
+.bottom-footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
+
+.footer-navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6rem;
+    
+}
+.footer-navbar h5{
+    font-size: 1.5rem;
+}
+
+.footer-navbar ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: #8787a0;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    
+
+}
+.bottom-footer p{
+    margin-top: 2rem;
+    color:#8787a0;
+}
+
+
+
+
+.Social-Med ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Social-Med img{
+    height: 35px;
+    width: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive  */
+
+
+@media only screen and (max-width: 1175px){
+   
+    .hero-right img{
+        width: 400px;
+    }
+    .hero-left h1{
+        font-size: 2.5rem;
+    }
+    .hero-left p{
+        font-size: 0.8rem;
+    }
+
+    /* -----------testing section---------- */
+
+    .testing-left img{
+        width: 400px;
+    }
+    .testing-right h2{
+        font-size: 2.5rem;
+    }
+    .testing-right p{
+        font-size: 0.8rem;
+    }
+    
+    /* -----------------technical-section----------------- */
+
+    .technical-section img{
+        width: 400px;
+    }
+    .technical-section h2{
+        font-size: 2.5rem;
+    }
+    .technical-section p{
+        font-size: 0.8rem;
+    }
+
+
+    /* -----------------services-headline----------------- */
+
+    .services-headline h2{
+        font-size: 2rem;
+    }
+    
+    .services-headline p{
+        
+            color: #757875;
+            font-weight: 500;
+            font-size: 0.8rem;
+    }
+
+
+   
+
+}
+
+@media only screen and (max-width: 1100px){
+
+    
+    .customer-card p{
+        font-size: 0.9rem;
+        margin-bottom: 0;
+    }
+    .customer-info img{
+        display: none;
+    }
+
+    .customer-card{
+       
+        
+        width: 460px;
+       
+        padding: 2rem ;
+      
+       
+        
+    }
+
+    .customer-cards{
+        justify-content: space-between;
+        gap: 0;
+        padding: 0;
+    }
+}
+
+
+@media only screen and (max-width: 920px){
+
+
+    .navbar{
+        overflow: scroll;
+    }
+    /* ----------------hero-section------------------- */
+    .hero{
+       
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+       
+    }
+    .hero-left{
+        text-align: center;
+    }
+
+    /* -----------------testing-section----------------- */
+    .testing{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        
+    }
+    .testing-right{
+        text-align: center;
+    }
+
+    /* -----------------technical-section----------------- */
+    .technical-section{
+        
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        /* gap: 1rem; */
+        
+    }
+    .technical-section{
+        text-align: center;
+    }
+
+     /* -----------------services-headline----------------- */
+
+     .services-headline{
+       flex-direction: column;
+       gap: 2rem;
+    
+       h2{
+        text-align: center;
+       }
+    }
+
+    
+    .services-card{
+        justify-content: center;
+    }
+
+    /* -----------------------cutomer -section----------------------------- */
+
+    .customer-cards{
+        justify-content: space-between;
+        
+       
+    }
+    .customer-card p{
+        font-size: 0.8rem;
+    }
+
+    .customer-card{
+       
+
+        width: 330px;
+        padding: 1.5rem ;
+       
+        
+    }
+
+
+}
+@media only screen and (max-width: 600px){
+
+   
+   
+    .hero-left{
+        text-align: center;
+    }
+    .hero-right img{
+        width: 350px;
+    }
+    .hero-left h1{
+        font-size: 2rem;
+    }
+    .hero-left p{
+        font-size: 0.8rem;
+    }
+
+    /* -----------------testing-section----------------- */
+    .testing-right{
+        text-align: center;
+    }
+    .testing-left img{
+        width: 350px;
+    }
+    .testing-right h2{
+        font-size: 2rem;
+    }
+    .testing-right p{
+        font-size: 0.8rem;
+    }
+
+    /* -----------------technical-section----------------- */
+    .technical-section{
+        text-align: center;
+    }
+    .technical-section img{
+        width: 350px;
+    }
+    .technical-section h2{
+        font-size: 2rem;
+    }
+    .technical-section p{
+        font-size: 0.8rem;
+    }
+
+    /* ---------------------services-section------------------ */
+
+    .services-card{
+        justify-content: center;
+    }
+
+
+    /* -----------------------------Customer section---------------------------- */
+
+    .customer-card{
+        width: 300px;
+        padding: 1.5rem ;
+     
+    }
+
+    .customer-cards{
+        justify-content: center;
+    }
+}
